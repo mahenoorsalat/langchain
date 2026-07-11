@@ -112,13 +112,18 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .envrc
 .venv*
 venv*
 env/
 ENV/
 env.bak/
+
+# Credentials and certificates
+*.pem
+*.key
+*.crt
+credentials.json
 
 # Spyder project settings
 .spyderproject
@@ -166,3 +171,4 @@ virtualenv/
 scratch/
 
 .langgraph_api/
+config.bat
