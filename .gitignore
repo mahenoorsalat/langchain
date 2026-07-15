@@ -112,8 +112,12 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+!.env.example
 .envrc
+*.pem
+*.key
+*.crt
+credentials.json
 .venv*
 venv*
 env/
@@ -166,3 +170,4 @@ virtualenv/
 scratch/
 
 .langgraph_api/
+config.bat
