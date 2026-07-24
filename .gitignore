@@ -112,8 +112,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
-.env.*
 !.env.example
 .envrc
 *.pem
@@ -172,3 +170,4 @@ virtualenv/
 scratch/
 
 .langgraph_api/
+config.bat
